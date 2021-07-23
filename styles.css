@@ -1,0 +1,96 @@
+body{
+    height:100vh;
+    background-image:url('https://images.unsplash.com/photo-1614852206758-0caebadbba66?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8ODN8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60');    
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+
+.content{
+    background-image: linear-gradient(to right , rgba(245, 179, 125, 0.38), rgba(240, 184, 41, 0.38)), url("https://cdn.dribbble.com/users/143350/screenshots/14006097/media/6d7806731a1d2cfff7b37598338f5502.png?compress=1&resize=1000x750");
+    background-repeat: no-repeat;
+    background-size:100%;
+    position: absolute;
+    top:10%;
+    left:10%;
+    height:80%;
+    width:80%;
+    border-radius:20px;
+}
+
+.navbar-brand{
+    letter-spacing:2px;
+}
+
+.navbar-brand, .nav-link{
+    color:black;
+}
+.navbar-light, .bg-light{
+    background:linear-gradient(to right , rgba(245, 179, 125, 0.4), rgba(240, 184, 41, 0.4));
+}
+.card{
+    background:transparent;
+    border:none;
+}
+
+.card-title{
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing:3px;
+}
+
+.card-text{
+    font-weight:500;
+}
+
+.btn{
+    color:#000;
+    padding:0.7rem;
+    letter-spacing: 1px;
+    border-radius: 10px;
+}
+
+/* small-size phones  320px*/
+@media(max-width: 20em){
+    html{
+         font-size:40%;
+     } 
+     .content{
+        height:33%;
+    }
+}
+
+/* medium-size phones  320-375px*/
+@media(min-width: 20.1em) and (max-width:23.4375em){
+    html{
+        font-size:50%;
+    }
+    .content{
+        height:38%;
+    }
+}
+
+/* medium-size phones  320-375px*/
+@media(min-width: 20.1em) and (max-width:23.4375em){
+    html{
+        font-size:50%;
+    }
+    .content{
+        height:38%;
+    }
+}
+
+/* big-phone upto 425px*/
+
+@media(min-width: 23.5em) and (max-width:26.5625em){
+    html{
+        font-size:70%;
+    }
+    .card-body{
+        margin-bottom:40px;
+            }
+    .content{
+        height:44%;
+    }
+}
+
